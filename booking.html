@@ -135,14 +135,6 @@
               <div class="row gy-3">
 
                 <div class="col-lg-6 form-group">
-                  <input type="text" name="From_Booking_Date" class="form-control" placeholder="From Booking Date" required>
-                </div>
-
-                <div class="col-lg-6 form-group ">
-                  <input type="text" class="form-control" name="To_Booking_Date" placeholder="To Booking Date" required>
-                </div>
-
-                <div class="col-lg-6 form-group">
                   <input type="text" class="form-control" name="Customer_Name" placeholder="Your Name" required>
                 </div>
 
@@ -159,7 +151,15 @@
                 </div>
 
                 <div class="col-md-12">
-                  <input type="text" class="form-control" name="Vehicle_Required" placeholder="Vehicle Required" required>
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>Service Type</option>
+                    <option value="1">Office Cleaning</option>
+                    <option value="2">School Cleaning</option>
+                    <option value="3">Exclusive Luxury Houses Cleaning</option>
+                    <option value="4">Warehouse Cleaning</option>
+                    <option value="5">Windows Cleaning</option>
+                    <option value="6">One Off Cleaning</option>
+                  </select>
                 </div>
 
                 <div class="col-md-12">
